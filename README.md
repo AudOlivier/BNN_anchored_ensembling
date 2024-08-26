@@ -9,4 +9,4 @@ Utility files:
 - Aux.py contains all algorithms and helper functions
 - Compare_deterministic_NNs.ipynb compares our different implementations of NNs
 
-Environment: bnn_parallel.yml
+Environment: environment.yml - requires packages such as numpy, scipy, matplotlib, tensorflow, scikit-learn
