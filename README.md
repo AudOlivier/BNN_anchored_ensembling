@@ -1,5 +1,8 @@
 # BNN with anchored ensembles
 
+Please cite our preprint whenever using this code:
+Ghorbanian, Casaprima and Olivier, "Empowering Bayesian Neural Networks with Functional Priors through Anchored Ensembling for Mechanics Surrogate Modeling Applications" https://doi.org/10.48550/arXiv.2409.05234
+
 Main files:
 - Investigate_prior_ensembling.ipynb is where the prior study is performed. It calls pre-trained NNs saved in 'priors_073024_N[200].pkl'. This pre-training happens off-line, in file do_prior_study_parallel.py (training of ensemble is parallelized)
 - Example_1D_synthetic.ipynb has the small 1d problem, pre-training happens in BNN_functional_prior_parallel.py
